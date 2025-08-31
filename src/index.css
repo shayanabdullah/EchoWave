@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    animation: fade 2s linear;
+    transition: all .3s;
+}
+
+
+@keyframes fade {
+    from{
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to{
+opacity: 1;
+transform: translateY(0);
+    }
+}
