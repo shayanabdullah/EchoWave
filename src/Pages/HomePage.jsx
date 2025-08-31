@@ -5,6 +5,7 @@ import Cards from '../components/Cards'
 import Loader from '../components/Loader'
 import Products from '../components/Products'
 import LevelUp from '../components/LevelUp'
+import Subscribe from '../components/Subscribe'
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
     <Cards/>
     <Products/>
     <LevelUp/>
+    <Subscribe/>
     </>
   )
 }
