@@ -28,7 +28,7 @@ const Navber = () => {
                             '>Products</a>
                             </li>
                             <li>
-                                <a href="#about" className='text-lg font-medium font-sans text-black hover:text-[#371f6b] duration-300 active:border-b-2 border-b-amber-400 relative after:absolute after:contents-[""] after:left-0 after:bottom-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-[#371f6b]  after:duration-300'>About</a>
+                                <a href="#offer" className='text-lg font-medium font-sans text-black hover:text-[#371f6b] duration-300 active:border-b-2 border-b-amber-400 relative after:absolute after:contents-[""] after:left-0 after:bottom-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-[#371f6b]  after:duration-300'>Offer</a>
                             </li>
                             <li>
                                 <a href="#contact" className='text-lg font-medium font-sans text-black hover:text-[#371f6b] duration-300 active:border-b-2 border-b-amber-400 relative after:absolute after:contents-[""] after:left-0 after:bottom-0 after:h-0.5 after:w-0 hover:after:w-full after:bg-[#371f6b] after:duration-300'>Contact</a>
