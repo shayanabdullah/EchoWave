@@ -1,18 +1,18 @@
 import React from 'react'
 import Images from './Images'
 import logo from '../assets/logo.png'
-import { FaFacebook, FaFacebookMessenger, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
+import { FaArrowUp, FaFacebook, FaFacebookMessenger, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { FaSignalMessenger } from 'react-icons/fa6'
 const Footer = () => {
   return (
     <section id='contact' className='bg-[#e6e6e8] py-15'>
         <div className="container">
-         <div className="flex items-start gap-36">
+         <div className="flex items-start gap-36 relative">
          <div className="w-2/5">
                  <Images src={logo} className='w-[200px] pb-5'/>
                  <p className='font-medium text-lg text-gray-600'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
-                <div className="w-2/5 flex flex-wrap justify-between">
+                <div className="w-3/5 flex flex-wrap justify-between">
                <div className="right">
                <h2 className='font-semibold text-xl pb-6'>Company</h2>
                 <ul>
@@ -47,11 +47,12 @@ const Footer = () => {
                  <a href="#" className='text-lg font-medium '><FaLinkedinIn/></a>
                  <a href="#" className='text-lg font-medium '><FaInstagram/></a>
                 </div>
-
                 </div>
 
-               
                 </div>
+                <a href="#">
+                <button className='bg-red-500  rounded-full text-white w-20 h-20 flex items-center justify-center text-xl absolute -right-10  -bottom-14 cursor-pointer' ><FaArrowUp/></button>
+                </a>
          </div>
         </div>
     </section>

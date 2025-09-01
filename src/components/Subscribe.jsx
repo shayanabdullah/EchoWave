@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaArrowRight } from 'react-icons/fa'
+import { FaArrowRight, FaArrowUp } from 'react-icons/fa'
 
 const Subscribe = () => {
   return (
@@ -13,6 +13,8 @@ const Subscribe = () => {
                  <div className=" flex justify-center ">
                                   <button className='py-3 px-10 bg-orange-600 text-white text-2xl cursor-pointer flex items-center gap-5 group rounded-r-b-xl rounded-r-xl '>Subscribe </button>
                                 </div>
+
+                               
             </div>
         </div>
     </div>
